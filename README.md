@@ -28,17 +28,3 @@ The project includes:
 - Hands-on debugging of Docker, Minikube, and Kubernetes issues
 
 ---
-
-## 📁 Project Structure
-
-kubebridge/
-├── app/
-│ ├── app.py # Python application
-│ ├── Dockerfile # Docker image definition
-│ └── requirements.txt # Application dependencies
-│
-├── k8s/
-│ ├── app.yaml # Kubernetes Deployment & Service
-│ └── ingress.yaml # NGINX Ingress configuration
-│
-└── README.md
