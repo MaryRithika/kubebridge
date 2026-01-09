@@ -27,4 +27,13 @@ The project includes:
 - Custom domain-based routing
 - Hands-on debugging of Docker, Minikube, and Kubernetes issues
 
+## 🔁 CI/CD
+
+This repository includes a GitHub Actions CI pipeline that automatically:
+- Lints Python code using `ruff`
+- Validates Kubernetes manifests using `kubeconform`
+- Builds the Docker image to catch Dockerfile issues early
+
+The pipeline runs on every push to `main` and on pull requests.
+
 ---
