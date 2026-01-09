@@ -36,4 +36,12 @@ This repository includes a GitHub Actions CI pipeline that automatically:
 
 The pipeline runs on every push to `main` and on pull requests.
 
+## 🚀 CD Automation (GitOps)
+
+KubeBridge uses GitOps-style Continuous Deployment with Argo CD.
+
+- Argo CD continuously watches the `main` branch and the `k8s/` directory
+- Any change pushed to Git is automatically synced to the Kubernetes cluster
+- Auto-sync, self-healing, and pruning keep the cluster consistent with Git
+
 ---
